@@ -51,6 +51,7 @@ public class circle {
     @Override
     public String toString() {
         return "radius:" + getRadius() + "\n" + "Circumference:" + circumference + "\n" + " Diameter:" + diameter + "\n" + " Area: " + area;
+        System.out.println("Radius:"+getRadius()); // taylor add this line just for the radius
     }
 
 }
